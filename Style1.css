@@ -1,0 +1,48 @@
+
+h1{
+    color: green;
+    text-align:center;
+}
+h2{
+    color: brown;
+    text-shadow: darkblue;
+}
+th{
+    color:red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 27px;
+    border:2px solid blueviolet;
+    background-color: burlywood;
+}
+td{
+    color: gray;
+    font-family: fantasy;
+    border:2px solid green;
+    padding: 5px;
+}
+
+tr{
+    text-align: center;
+    padding: 5px;
+}
+table{
+    border:5px solid black;
+    border-collapse: collapse;
+    width: 50%; 
+}
+#right{
+    font-size: 36px;
+}
+#left{
+    font-size: 48px;
+    color: crimson;
+    text-align: right;
+}
+.name{
+ font-weight: bold;   
+}
+#FavColors{
+    font-size: 16px;
+    color: darkblue;
+    text-align: left;
+}
