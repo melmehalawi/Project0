@@ -46,3 +46,39 @@ table{
     color: darkblue;
     text-align: left;
 }
+input[type=text]{
+    background-color: gold; 
+    }
+
+input[type=password]{
+    background-color:red;
+}
+button{
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    color: maroon;
+    background-color: royalblue;
+    }
+button:hover{
+    background-color: yellow;
+}
+a::before{
+    content: "\21d2 Click This: ";
+    font-weight: bold;
+}
+h2::selection{
+    
+    background-color: yellowgreen;
+}
+@media(min-width: 500px){
+    button {
+        background-color: antiquewhite;
+    }
+}
+@media(max-width: 499px) {
+    button{
+        width: 20%;
+        background-color: darkgrey;
+    }
+}
